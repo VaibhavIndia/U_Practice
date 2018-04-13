@@ -11,6 +11,7 @@ public class FirefoxPractice
 	{
 		//System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\chrome\\chromedriver.exe");
 		WebDriver driver = new FirefoxDriver();
+		// Go to url
 		driver.get("https://google.com");
 		System.out.println(driver.getTitle());
 	}
