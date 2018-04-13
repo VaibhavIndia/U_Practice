@@ -12,6 +12,7 @@ public class ChromePractice
 		System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\Browsers\\chrome\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://google.com");
+		// initialize webdriver
 		System.out.println(driver.getTitle());
 	}
 
